@@ -4,8 +4,7 @@
 #include <QTextEdit>
 #include <QMainWindow>
 
-class Appearance : public QMainWindow
-{
+class Appearance : public QMainWindow{
     Q_OBJECT
 public:
     explicit Appearance(QWidget *parent = nullptr);
