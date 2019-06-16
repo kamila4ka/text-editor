@@ -3,9 +3,7 @@
 #include <QColor>
 #include <QFont>
 
-Appearance::Appearance(QWidget *parent) : QMainWindow(parent) {
-
-}
+Appearance::Appearance(QWidget *parent) : QMainWindow(parent) {}
 
 void Appearance::changeTextColor(QColor color, QTextEdit* txt) {
         txt->setTextColor(color);
