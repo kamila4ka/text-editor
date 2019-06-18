@@ -64,26 +64,34 @@ void MainWindow::pickFont() {
     bool ok;
     QFont font = QFontDialog::getFont(&ok, this);
     if (ok)
+    {
         pAppear->pickFont(font, ui->textEdit);
+    }
     else return;
 }
 
 void MainWindow::changeTextColor() {
     QColor color = QColorDialog::getColor(Qt::white, this, "Choose color");
     if (color.isValid())
+    {
         pAppear->changeTextColor(color, ui->textEdit);
+    }
 }
 
 void MainWindow::changeBackground() {
     QColor color = QColorDialog::getColor(Qt::white, this, "Choose color");
     if (color.isValid())
+    {
         pAppear->changeBackgroundColor(color, ui->textEdit);
+    }
 }
 
 void MainWindow::changeTextBackground() {
     QColor color = QColorDialog::getColor(Qt::white, this, "Choose color");
     if (color.isValid())
+    {
         pAppear->changeTextBackground(color, ui->textEdit);
+    }
 
 }
 
