@@ -4,7 +4,8 @@
 #include <QTextStream>
 #include <QTextEdit>
 
-FileManager::FileManager(){};
+FileManager::FileManager() {
+}
 
 
 void FileManager::createNewFile(QString filename) {
