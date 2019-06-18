@@ -17,7 +17,7 @@ void Appearance::changeBackgroundColor(QColor color, QTextEdit* txt) {
 }
 
 void Appearance::pickFont(QFont font, QTextEdit* txt) {
-    txt->setFont(font);
+    txt->setCurrentFont(font);
 }
 
 void Appearance::changeTextBackground(QColor color, QTextEdit* txt) {
