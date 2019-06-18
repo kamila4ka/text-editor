@@ -1,7 +1,6 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-//#include "ui_mainwindow.h"
 #include <QMainWindow>
 #include "filemanager.h"
 #include "appearance.h"
@@ -44,4 +43,4 @@ private:
     Appearance *pAppear;
 };
 
-#endif // MAINWINDOW_H
+#endif 
